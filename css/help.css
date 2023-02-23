@@ -1,0 +1,33 @@
+.help-wrapper {
+    padding: 148px 48px 136px 278px;
+}
+
+h1 {
+    color: #4589ff;
+}
+
+h2 {
+    color: #005dff;
+}
+
+.help-number {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 700;
+    color: #005dff;
+    width: 50px;
+}
+
+@media (max-width: 800px) {
+    .help-wrapper {
+        padding: 128px 48px 136px 48px;
+    }
+}
+
+@media (max-width: 400px) {
+    .help-wrapper {
+        padding: 128px 24px 136px 24px;
+    }
+}
